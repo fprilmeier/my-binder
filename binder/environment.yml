@@ -1,0 +1,19 @@
+channels:
+- conda-forge
+dependencies:
+# Jupyter
+- jupyterlab=3.1
+- jupyter-offlinenotebook=0.2
+- nodejs=12
+- nbconvert=6
+# RTC
+- jupyterlab-link-share=0.2
+# Python Kernel
+- ipykernel=5.1
+- ipywidgets=7.6
+- widgetsnbextension=3.5
+- matplotlib=3.1
+- pandas=1
+- seaborn=0.11
+- pyyaml
+- traittypes==0.2.1
